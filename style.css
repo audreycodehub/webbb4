@@ -1,0 +1,72 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Literata', serif;
+    background-color: lightblue !important; /* Light blue background */
+    color: #333; /* Dark text for contrast */
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Header */
+header h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    max-width: 40em;
+    margin: 20px auto;
+}
+
+article p {
+    margin: 15px 0;
+    text-align: left;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+footer nav a {
+    padding: 5px 10px;
+}
